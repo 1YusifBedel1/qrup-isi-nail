@@ -203,6 +203,25 @@ pre i{
     cursor: pointer;
 }
 @media only screen and (max-width: 1321px) {
+    /* .firstSection{
+        flex-direction: column;
+    }
+    .section2{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    } */
+    .section2-left-sections{
+        flex-direction: column;
+    }
+    .section2-right-sections{
+        flex-direction: column;
+
+    }
+    
+  }
+  @media only screen and (max-width: 1050px) {
     .firstSection{
         flex-direction: column;
     }
