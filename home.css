@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 124px;
+    padding-left: 60px;
+    border: 1px solid black;
+}
+.navbar__logo a{
+    width: 148px;
+    height: 44px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -3%;
+    color: #3563E9;
+}
+.navbar__search{
+    margin-left: 212px;
+    border: 1px solid black;
+    width: 429px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.navbar__search__logo{
+    width: 24px;
+    margin-left: 20px;
+}
+.navbar__search__input{
+    border: none;
+    outline: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 149px;
+    height: 20px;
+    margin-left: 10px;
+    
+}
+.navbar__search__sliders{
+    width: 24px;
+    margin-left: 180px;
+}
+.navbar__profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 236px;
+    padding-left: 800px;
+}
+.navbar__profil__like{
+    width: 44px;
+    color: #596780;
+}
+.navbar__profil__notifications{
+    width: 44px;
+    color: #596780;
+}
+.navbar__profil__settings{
+    width: 44px;
+    color: #596780;
+}
+.navbar__profil__picture img{
+    width: 24px;
+    border-radius: 50%;
+}
