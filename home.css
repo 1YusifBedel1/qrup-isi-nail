@@ -403,3 +403,57 @@ pre i{
     }
   }
 
+  .footer_container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+
+}
+
+.footer_start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 50px;
+}
+.footer_right{
+    display: flex;
+    justify-content: space-around;
+    gap:   100px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.footer_ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+    color: gray;
+}
+.footer_left h1{
+    color: #3563e9;
+}
+.footer_left p {
+    color: gray;
+}
+.footer_end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+font-weight: bold;
+     
+}
+.end_right{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+@media only screen and (max-width: 866px) {
+    .footer_start{
+        flex-direction: column;
+    }
+    .footer_right{
+        flex-direction: column;
+    }
+  }
